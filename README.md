@@ -1,6 +1,6 @@
 # LimbusCalc · 边狱巴士伤害计算器
 
-《边狱巴士 / Limbus Company》技能伤害计算器，使用 Flutter 编写。
+《边狱巴士 / Limbus Company》多平台技能伤害计算器，使用 Flutter 编写，支持 Android、Windows 与 Web。
 
 ## 功能
 
