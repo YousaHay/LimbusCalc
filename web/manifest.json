@@ -1,0 +1,35 @@
+{
+    "name": "边狱巴士伤害计算器",
+    "short_name": "伤害计算器",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#F6F7F9",
+    "theme_color": "#F6F7F9",
+    "description": "边狱巴士普通技能逐枚硬币直接伤害计算器",
+    "orientation": "any",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 与应用浅色页面背景一致（lib/app_theme.dart AppPalette.page），避免启动时闪出其他颜色。 -->
+    <color name="page_background">#F0F2F5</color>
+</resources>

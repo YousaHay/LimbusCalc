@@ -1,0 +1,42 @@
+name: limbus_damage_calc
+description: "LimbusCalc：边狱巴士（Limbus Company）技能伤害计算器。"
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.7
+
+dependencies:
+  dynamic_color: ^2.1.0
+  flutter:
+    sdk: flutter
+  package_info_plus: ^10.2.2
+  shared_preferences: ^2.5.6
+  url_launcher: ^6.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  shared_preferences_platform_interface: ^2.4.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/OFL.txt
+    - assets/licenses/MirrorCalcWeb-LICENSE.txt
+    - LICENSE
+
+  # 子集字体由 tool/subset_fonts.py 生成，保证离线也能显示中文。
+  fonts:
+    - family: NotoSansSC
+      fonts:
+        - asset: assets/fonts/NotoSansSC-Regular.subset.ttf
+          weight: 400
+        - asset: assets/fonts/NotoSansSC-Medium.subset.ttf
+          weight: 500
+        - asset: assets/fonts/NotoSansSC-Bold.subset.ttf
+          weight: 700
